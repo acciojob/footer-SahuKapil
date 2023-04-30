@@ -1,5 +1,6 @@
 /* your code here */
-*{
+.content{
+	height:350px;
 	background-color:black;
 	color:rgb(255,255,255);
 }
@@ -7,10 +8,12 @@
 	display:flex;
 	flex-direction: row;
 	justify-content:space-between;
-	margin:25px;
+	align-items:center;
+	margin: 25px 25px 0px 25px;
 	
 }
 .media-icons{
+	padding:20px;	
 	display:flex;
 	flex-direction: row;
 	gap:15px;
@@ -22,7 +25,7 @@ img{
 	display:flex;
 	flex-direction:row;
 	justify-content:space-between;
-	margin:30px;
+	margin: 0 30px;
 }
 .links{
 	display:flex;
@@ -36,5 +39,28 @@ a{
 	text-decoration:none;
 	padding:10px;
 	color:rgb(202,202,202);
+}
+.bottom-details{
+	background-color:rgb(44,48,58);
+	height: 80px;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	align-items:center;
+	padding: 0 30px;
+	
+}
+.right-footer{
+	display:flex;
+	flex-direction:row;
+	text-decoration:none;
+	gap:10px;
+}
+.p1{
+	color:rgb(202,202,202);
+	text-decoration:none;
+}
+.p2{
+	color: rgb(170,171,175);
 }
 
