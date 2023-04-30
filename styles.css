@@ -21,6 +21,9 @@
 img{
 	width:50px;
 }
+.media-icons > a{
+	padding:5px;
+}
 .link-boxes{
 	display:flex;
 	flex-direction:row;
